@@ -25,6 +25,8 @@ A simplified overview (the same structure as in the 'dist' folder):
 
 - Now you can run the programs 'WarriorTournamentInspector.exe' and 'WarriorTournament.exe' by 'double clicking' on them (the 'warriors' folder is in the same place as the '.exe' files and the 'warriors_start.xlsx' file is in the 'warriors' folder). The results of the new ratings can be seen in the 'warriors' folder.
 
+- The two mentioned '.exe' files above and the 'warriors' folder with the excel file 'warriors_start.xlsx' can all be found in the 'dist' folder in the project.
+
 
 ## Installation guide
 
