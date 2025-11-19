@@ -1,0 +1,87 @@
+
+# .gitignore
+
+
+# --------------------------------------
+# Python
+# --------------------------------------
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Byte-compiled
+
+*.py[cod]
+*$py.class
+
+# Created excel files from the program.
+
+warriors/warriors_updated.xlsx
+warriors/warriors_inspector_updated.xlsx
+
+# --------------------------------------
+# Virtual environments
+# --------------------------------------
+
+venv/
+venv*/
+venvtournament/
+.env/
+.pyenv/
+.idea/
+
+# VSCode settings (optional to ignore)
+
+.vscode/
+
+
+# --------------------------------------
+# PyInstaller build artifacts
+# --------------------------------------
+
+build/
+
+# WarriorTournament EXE or other executables
+
+*.dll
+*.so
+
+
+# --------------------------------------
+# Logs & temporary files
+# --------------------------------------
+
+*.log
+*.tmp
+*.temp
+
+
+# --------------------------------------
+# OS-specific files
+# --------------------------------------
+
+# Windows
+
+Thumbs.db
+Desktop.ini
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# --------------------------------------
+# Cache directories
+# --------------------------------------
+
+.cache/
+.mypy_cache/
+.pytest_cache/
+pytest_cache/
+.ipynb_checkpoints/

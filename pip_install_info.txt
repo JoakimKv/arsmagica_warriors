@@ -1,0 +1,16 @@
+pip install pandas
+pip install openpyxl
+pip install PyQt6
+pip install pyinstaller
+
+(pyinstaller --onefile --windowed --exclude PyQt5 --name WarriorTournament main.py)
+(pyinstaller --onefile --windowed --exclude PyQt5 --name WarriorTournamentInspector main.py)
+
+(pip install -r requirements.txt)
+(pip freeze > requirements.txt)
+
+(envtournament/Scripts/activate)
+
+pyinstaller --onefile --windowed --exclude PyQt5 --name WarriorTournament --add-data "images\ArsMagica_Logo_11.png;images" --add-data "images\ArsMagica_Logo_3.png;images" main.py
+
+pyinstaller --onefile --windowed --exclude PyQt5 --name WarriorTournamentInspector --add-data "images\ArsMagica_Logo_11.png;images" --add-data "images\ArsMagica_Logo_3.png;images" main.py
