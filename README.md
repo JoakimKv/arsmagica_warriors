@@ -14,6 +14,16 @@ The programs can take some time to run so have some patience and start with smal
 
 ---
 
+## The New Feature Berserker in ArsMagica
+
+The 'Berserker' advantage already exists in ArsMagica but in a simpler form. We have invented a more interesting combat system for berserkers in ArsMagica. Berserkers can prepare themself before a fight by doing a ritual so that they start their fights in 'Berserker' mode. In our tournaments we have choosen to assume that the berserkers do not start in 'Berserker' mode. Once a berserker gets an injury they role against their 'Berserker' score. If the roll is below or equal to their 'Berserker' score (there are no botches in this case) they go in 'Berserker' mode (assuming their wound penalties at the time of injury do not exceed the maximum wound penalty of -7). A normal fighter gets a penalty to their attack score given by their summed wound penalty and a penalty of half their summed wound penalty (rounded down) to their defense. A berserker in 'Berserker' mode do not get any penalties to their attack or defense rolls due to injuries and they get +1 to their damage. In this combat system: rolls are made for attack rolls (with 'ones' that get doubled and one 'botch' die is used) but no rolls are made for the defense, instead a static value of +6 is used. Once a berserker is knocked down or the fight finishes the 'wound penalties' that are used for 'normal' fighters are now also used for berserkers.
+
+A normal fighter have these wound penalties: [Minor: -1, Medium: -3, Heavy: -5, Incapacitated: -7, "Death": -7].
+
+A Berserker in 'Berserker' mode have these wound penalties: [Minor: -1, Medium: -1, Heavy: -1, Incapacitated: -1, "Death": -7].
+
+If any fighter gets a score of -7 or more in wound penalties they are knocked down (or dies). All fighters are refreshed after a fight no matter what happened during a fight. The point of this program is to calculate the warriors new ratings after a number of tournaments, given by 'n', that the 'user' chooses in the 'Desktop Application'.
+
 
 ## Project Structure for running the program  
 
