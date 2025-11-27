@@ -37,6 +37,12 @@ A simplified overview (the same structure as in the 'dist' folder):
 
 - The two mentioned '.exe' files above and the 'warriors' folder with the excel file 'warriors_start.xlsx' can all be found in the 'dist' folder in the project.
 
+- In the 'warriors_start.xlsx' file you can insert your own 'warrior' values, check out this file to get an good example for how it works. 
+
+Note that attack, defense, armour and damage is based on your advantages, disadvantages, stats (as str, sta, dex, quick and other stats), weapon modifiers and your armour. The static value of +6 for 'defense', instead of using a die roll, is not added to the 'defense' in this file. 'Die rolls' are 'not' added to the values in the excel file ('warriors_start.xlsx'), instead they will be used during the fights in the tournaments.
+
+By using the 'Comments' field and writing the text 'berserker' (with any combination of capital or lower case letters) somewhere in this text, you get a warrior that is a berserker with a score of 1. You can also set the 'berserker' score and thus creating a 'berserker' by writing any of the following text combinations (again ignoring differances between capital or lower case letters) somewhere in the 'Comments' field with a text like: 'Berserker 3', 'Berserker (4)' or 'Berserker [5]'. Note that there is no attribut added to the berserker score when checks are made if a warrior enters a 'berserker' mode.
+
 
 ## Installation guide
 
